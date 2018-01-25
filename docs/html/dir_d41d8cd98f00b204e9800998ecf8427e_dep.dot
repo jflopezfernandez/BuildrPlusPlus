@@ -1,0 +1,6 @@
+digraph "C:/Users/jflop/Desktop/projects/system/Buildr++/src" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  dir_d41d8cd98f00b204e9800998ecf8427e [shape=box, label="src", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_d41d8cd98f00b204e9800998ecf8427e.html"];
+}
