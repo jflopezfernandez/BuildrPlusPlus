@@ -1,0 +1,13 @@
+before_install:
+    - sudo apt-get update 
+    - sudo apt-get install cmake cppcheck
+    
+notifications:
+    email:
+        recipients:
+            - jflopezfernandez@gmail.com
+            
+    
+language: c++
+    - g++
+    - clang++
