@@ -1,0 +1,14 @@
+ language: cpp
+ compiler:
+    - g++
+    - clang++
+before_install:
+    - pip install --user cpp-coveralls
+script:
+    - cmake -G "MinGW Makefiles" && cmake --build . --config -DENABLE_GCOV && make
+notifications:
+    email:
+        recipients:
+            - jflopezfernandez@gmail.com
+            
+    
